@@ -16,7 +16,9 @@ export default {
         display: flex;
         justify-content: space-between;
         height: 90px;
-        margin-right: 10px;
+        padding-right: 10px;
+        padding-bottom: 15px;
+        background-color: white;
     }
     img {
         height: 90px;

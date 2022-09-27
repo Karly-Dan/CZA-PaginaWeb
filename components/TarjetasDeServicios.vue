@@ -20,9 +20,10 @@ export default {
         height: 300px;
     }
     .item1 {
-        background-image: url(../assets/img/dinero.webp);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/img/DINERO.jpg);
         background-repeat: no-repeat;
         width: 100%;
+        background-size: 470px;
     }
     @media (min-width: 390px){
         .item1 {
@@ -31,12 +32,16 @@ export default {
     }
     @media (min-width: 600px){
         .item1 {
-            width: 60%;
+            width: 50%;
         }
     }
     @media (min-width: 1000px){
     .item1 {
-        width: 40%;
+        width: 30%;
+        background-size: 400px;
+        }
+        .img2 {
+            margin-top: -55px;
         }
     }
     .img2 {

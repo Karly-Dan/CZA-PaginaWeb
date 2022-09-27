@@ -28,7 +28,4 @@
     color: white;
     border-color: transparent;
 }
-div {
-  max-width: 600px;
-}
   </style>

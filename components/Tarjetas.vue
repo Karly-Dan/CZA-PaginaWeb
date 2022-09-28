@@ -56,6 +56,8 @@ export default {
       font-style: italic;
       font-family: 'Open Sans',sans-serif;
       margin: 20px 9px 0;
+      font-size: 1rem;
+      line-height: 1.6;
     }
     h1 {
       letter-spacing: 2px;
@@ -64,6 +66,7 @@ export default {
       text-transform: uppercase;
       color: #555c66 !important;
     }
+    
 @media (min-width: 300px) {
     .contenedor{
       height: 945px;
@@ -86,7 +89,7 @@ export default {
 }
 @media (min-width: 991px){
     .contenedor {
-      height: 800px;
+      height: 700px;
     }
     .titulo-de-tarjeta {
       width: 335px;
@@ -100,6 +103,7 @@ export default {
     }
     .titulo-de-tarjeta3 {
       width: 335px;
+      margin-top: -50px;
     }
 }
 @media (min-width: 1199px){
@@ -109,6 +113,9 @@ export default {
     .titulo-de-tarjeta, .titulo-de-tarjeta2, .titulo-de-tarjeta3  {
       width: 234px;
       height: 291px;
+    }
+    .titulo-de-tarjeta3 {
+      margin-top: -55px;
     }
 }
 </style>

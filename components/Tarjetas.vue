@@ -30,10 +30,10 @@ export default {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        background-color: orangered;
+        background-color: #00467a;
     }
     .titulo-de-tarjeta, .titulo-de-tarjeta2, .titulo-de-tarjeta3 {
-      box-shadow: 5px 5px 0px 0 rgba(0,0,0,0.2);
+      box-shadow: 5px 5px 0px 0 rgba(32, 31, 31, 0.51);
       width: 100%;
       text-align: center;
       font-family: Montserrat, sans-serif !important;
@@ -76,7 +76,7 @@ export default {
       height: 256px
     }
     .titulo-de-tarjeta {
-      margin-top: -115px;
+      margin-top: -65px;
     }
 }
 @media (min-width: 700px) {
@@ -90,6 +90,7 @@ export default {
 @media (min-width: 991px){
     .contenedor {
       height: 700px;
+      margin-top: 100px;
     }
     .titulo-de-tarjeta {
       width: 335px;

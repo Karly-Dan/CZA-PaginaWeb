@@ -16,7 +16,7 @@ export default {
 
 <style scoped>
     div {
-        background-color: #25579b;
+        background-color: #00467a;
         color: white;
         font-style: italic;
     }

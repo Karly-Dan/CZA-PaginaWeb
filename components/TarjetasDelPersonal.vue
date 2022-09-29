@@ -53,7 +53,7 @@ img {
     margin-right: auto;
     width: 50%;
     border-radius: 50% ;
-    border-color: #df612a;
+    border-color: #00467a;
     border-width: 9px;
     border-style: solid;
     background-size: cover;

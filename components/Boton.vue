@@ -13,7 +13,7 @@
   <style scoped>
       .button1 {
     color: white; 
-    background-color:  #df612a;
+    background-color: #1e4e8d;
     height: 50px;
     width: 200px;
     border-radius: 2px;
@@ -24,7 +24,7 @@
 }
 
 .button1:hover {
-    background-color: #1e4e8d;
+    background-color: #df612a;
     color: white;
     border-color: transparent;
 }

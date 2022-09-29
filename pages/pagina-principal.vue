@@ -17,6 +17,17 @@
         <p class="subtitulo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt dolore facilis magni ipsam sapiente culpa nostrum fugiat veritatis, sunt adipisci rerum optio placeat quas. Perferendis harum quos neque cupiditate ipsam?</p>
         <boton />
     </section>
+    <section style="display: contents;">
+        <div class="content" style=" background-color: white; padding-bottom: 40px; padding-top: 20px;">
+            <h2 class="subtitulo-personal" >Acerca de la compañía</h2>
+            <p style="line-height: 1.4; font-style: italic; font-weight: 400; font-family: 'Open Sans',sans-serif !important; color: #808080 !important;">Dignissim enim sit amet venenatis urna cursus. Vitae sapien pellentesque habitant morbi tristique senectus et.</p>
+            <p style="font-size: 1.125rem;">Aenean sed adipiscing diam donec adipiscing tristique risus. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Id semper risus in hendrerit gravida rutrum. Vel pharetra vel turpis nunc eget lorem. Egestas congue quisque egestas diam</p>
+            <boton />
+        </div>
+        <div style="background-color:white; height: 250px;">
+            <img src="../assets/img/business-people-shaking-hands-together.jpg" alt="" style="width: 90%; height: auto; display: block; margin: auto; ">
+        </div>
+    </section>
     <section class="tarjetas-servicios">
         <h1 class="titulos">Que servicios ofrecemos</h1>
         <p class="subtitulo">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint Ocecat cupidatat non proident, sunt in culpa</p>
@@ -28,9 +39,22 @@
         <p class="subtitulo">Valoramos enormemente las relaciones sólidas y hemos visto los beneficios que aportan a nuestro negocio. Los comentarios de los clientes son vitales para ayudarnos a hacerlo bien.</p>
         <tarjetas-del-personal />
     </section>
+    <section class="acerca-de-la-compañia">
+        <div class="div-copañia">
+            <h2 class="titulo-compañia">Acerca de la compañía</h2>
+            <p class="subtitulo-compañia">Negocios Consultoría</p>
+            <p class="parrafo-compañia">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint Ocecat cupidatat non proident.</p>
+            <boton />
+        </div>
+        <div class="contenedor-img">
+            <img src="../assets/img/business-brainstorming-graph-chart-report-data-concept.jpg" alt="" class="img-compañia">
+        </div>
+    </section>
     <section class="sellos">
+        <div>
         <h1 class="titulo-sello">Socios de información</h1>
         <p class="subtitulo">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+        </div>
         <div class="img-sellos">
         <img src="../assets/img/firma.png" alt="" class="sellos-img">
         <img src="../assets/img/firma.png" alt="" class="sellos-img">
@@ -85,7 +109,7 @@ export default {
     }
     .div2 {
         height: 350px;
-        background-color: #f74a0c;
+        background-color: #00467a;
         margin-top: -120px;
         
     }
@@ -105,11 +129,29 @@ export default {
             margin-left: auto;
             margin-right: auto;
             padding-top: 40px;
+            width: 340px;
         }
         .sellos-img {
             max-width: 100%;
         }
-    
+        .subtitulo {
+            width: 340px;
+        }
+        .titulos {
+            font-size: 1.875rem;
+        }
+        .subtitulo-personal {
+            font-size: 1.5rem;
+        }
+        .img-compañia {
+            height: 250px;
+            display: block;
+            margin: auto;
+        }
+        .content {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
     }
     @media (min-width: 700px) {
         .section .img1 {
@@ -122,6 +164,48 @@ export default {
         }
         .div2 {
             margin-top: -113px;
+        }
+        .titulo-de-tarjetas {
+            width: 700px;
+            font-size: 3rem;
+            line-height: 1.1;
+        }
+        .subtitulo {
+            width: 630px;
+        }
+        .acerca-de-la-compañia {
+            display: flex;
+        }
+        .div-copañia {
+            background-color: white;
+            padding-left: 150px;
+            padding-left: 34px;
+            padding-right: 55px;
+            text-align: left;
+        }
+        .titulo-compañia {
+            width: 202px;
+        }
+        .subtitulo-compañia {
+            font-family: Montserrat, sans-serif;
+            background-image: none;
+            letter-spacing: normal;
+            text-transform: none;
+            font-weight: 400;
+            font-size: 3rem;
+            line-height: 1.1;
+        }
+        .parrafo-compañia {
+            color: #555c66 !important;
+            font-size: 1.125rem;
+            line-height: 2
+        }
+        .img-compañia {
+            height: 450px;
+        }
+        .content {
+            padding-left: 40px;
+            padding-right: 40px;
         }
     }
     @media (min-width: 991px){
@@ -136,6 +220,33 @@ export default {
         .div2 {
             margin-top: -31px;
         }
+        .titulo-de-tarjetas {
+            width: 780px;
+        }
+        .acerca-de-la-compañia {
+            display: flex;
+        }
+        .div-copañia {
+            background-color: white;
+            padding-left: 65px;
+        }
+        .subtitulo-compañia {
+            font-family: Montserrat, sans-serif;
+            background-image: none;
+            letter-spacing: normal;
+            text-transform: none;
+            font-weight: 400;
+            font-size: 3rem;
+            line-height: 1.1;
+        }
+        .parrafo-compañia {
+            color: #555c66 !important;
+            font-size: 1.125rem;
+            line-height: 2
+        }
+        .content {
+            padding-right: 500px;
+        }
     }
     @media (min-width: 1199px){
         .section .img1 {
@@ -149,11 +260,31 @@ export default {
         .div2 {
             margin-top: -404px;
         }
+        .titulos, .titulo-de-tarjetas, .titulo-sello, .subtitulo-personal, .subtitulo-compañia{
+            font-weight: 400;
+            font-size: 3rem;
+        }
+        .subtitulo {
+            font-size: 1.25rem;
+        }
+        .titulo-de-tarjetas {
+            width: 822px;
+        }
+        .acerca-de-la-compañia {
+            display: flex;
+        }
+        .div-copañia {
+            background-color: white;
+            padding-left: 150px;
+        }
+        
+        .content {
+            padding-right: 600px;
+        }
     }
 .titulo-de-tarjetas {
     color: #111111;
     height: 250px;
-    font-size: 1.5rem;
     line-height: 1.1;
     text-align: center;
     font-family: Montserrat,sans-serif;
@@ -166,7 +297,6 @@ export default {
 }
 .titulos {
     color: #111111;
-    font-size: 1.5rem;
     line-height: 1.1;
     text-align: center;
     font-family: Montserrat,sans-serif;
@@ -177,12 +307,11 @@ export default {
     background-color:  #e0e5eb;
 }
 .subtitulo {
-    padding-left: 50px;
-    padding-right: 50px;
     text-align: center;
-    font-size: 1rem;
     line-height: 1.6;
     color: #111111;
+    margin: 30px auto 0;
+    margin-bottom: 20px;
 }
 .tarjetas-servicios {
     margin-left: 10px;
@@ -191,6 +320,7 @@ export default {
 .personal {
     background-color: white;
     text-align: center;
+    padding-bottom: 20px;
 }
 .titulo-personal {
     text-transform: uppercase;
@@ -205,7 +335,6 @@ export default {
 }
 .subtitulo-personal {
     font-family: Montserrat,sans-serif;
-    font-size: 1.5rem;
     color: #111111;
     font-weight: 400;
     line-height: 1.1;
@@ -222,15 +351,20 @@ p {
     padding: 20px;
 }
 .img-sellos {
-    display: flex;
+    display: table;
     justify-content: space-around;
-    margin-top: 80px;
     flex-wrap: wrap;
     width: 100%;
 }
+.sellos-img {
+    display: block;
+    display:block;
+    margin:auto;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
 .titulo-sello {
     color: #111111;
-    font-size: 1.5rem;
     line-height: 1.1;
     text-align: center;
     font-family: Montserrat,sans-serif;
@@ -238,5 +372,35 @@ p {
     margin-left: auto;
     margin-right: auto;
     text-transform: none;
+}
+.div-copañia {
+    background-color: white;
+    padding: 35px;
+}
+.titulo-compañia {
+    margin-top: 0;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: #555c66;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    font-weight: 400;
+    font-family: 'PT Sans',sans-serif;
+}
+.subtitulo-compañia {
+    font-family: Montserrat,sans-serif;
+    color: #111111;
+    font-weight: 400;
+    line-height: 1.1;
+    margin: 0px;
+    font-size: 1.5rem;
+}
+.contenedor-img {
+    background-color: white;
+}
+.parrafo-compañia {
+    color: #555c66 !important;
+    font-size: 1.125rem;
+    line-height: 2;
 }
 </style>

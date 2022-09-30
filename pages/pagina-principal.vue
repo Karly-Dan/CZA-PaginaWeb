@@ -24,7 +24,7 @@
             <p style="font-size: 1.125rem;">Aenean sed adipiscing diam donec adipiscing tristique risus. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Id semper risus in hendrerit gravida rutrum. Vel pharetra vel turpis nunc eget lorem. Egestas congue quisque egestas diam</p>
             <boton />
         </div>
-        <div style="background-color:white; height: 250px;">
+        <div style="background-color:white; height: 850px;">
             <img src="../assets/img/business-people-shaking-hands-together.jpg" alt="" style="width: 90%; height: auto; display: block; margin: auto; ">
         </div>
     </section>

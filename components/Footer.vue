@@ -1,9 +1,15 @@
 <template>
     <div>
-        <h1>Contactanos</h1>
-        <div style="display: flex; justify-content: space-evenly;">
-        <p>correo</p>
-        <p>telefono</p>
+        <h1>Contáctanos</h1>
+        <div class="contenedor">
+            <div style="margin-bottom: 35px;">
+                <img src="../assets/img/correo.png" alt="">
+                <p style="margin-top:0;">contacto@condezarate.mx</p>
+            </div>
+            <div> 
+                <img src="../assets/img/telefono.png" alt="">
+                <p style="margin-top:0;">55 6285 7771</p>
+            </div>
         </div>
     </div>
 </template>
@@ -21,7 +27,22 @@ export default {
         font-style: italic;
     }
     h1 {
-        margin: 0;
+        margin-bottom: 35px;
         text-align: center;
+        margin-top: 0;
+        padding-top: 20px;
+    }
+    @media (min-width: 300px){
+        .contenedor {
+            display: block;
+            text-align: center;
+            height: 174px;
+        }
+    }
+    @media (min-width: 700px) {
+        .contenedor {
+            display: flex;
+            height: 118px;
+        }
     }
 </style>

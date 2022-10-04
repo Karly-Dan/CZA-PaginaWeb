@@ -7,16 +7,30 @@
           <div class="slider">
             <ul>
                 <li>
-                    <h2 class="titulo-carrusel">Comercio digital</h2>
-                    <p class="subtitulo-carrusel">Auctor augue mauris augue neque gravida en fermentum et. Feugiat in fermentum posuere. </p>
+                    <h2 class="titulo-carrusel">Misión</h2>
+                    <p class="subtitulo-carrusel">Ofrecer soluciones tecnológicas inteligentes acordes a las necesidades de nuestros clientes, que le permitan eficientar sus procesos productivos, generando utilidades a menor costo.</p>
                 </li>
                 <li>
-                    <h2 class="titulo-carrusel">Vomercio digital 2</h2>
-                    <p class="subtitulo-carrusel">Auctor augue mauris augue neque gravida en fermentum et. Feugiat in fermentum posuere. </p>
+                    <h2 class="titulo-carrusel">Visión</h2>
+                    <p class="subtitulo-carrusel">Adaptarnos a las nuevas tecnologías para brindar seguridad a nuestros clientes, de la infromación que se genera, derivada de su actividad comercial.</p>
                 </li>
                 <li>
-                    <h2 class="titulo-carrusel">Comercio digital 3</h2>
-                    <p class="subtitulo-carrusel">Auctor augue mauris augue neque gravida en fermentum et. Feugiat in fermentum posuere. </p>
+                    <h2 class="titulo-carrusel">Valores</h2>
+                    <p class="subtitulo-carrusel">TRANSPARENCIA
+                    <br>
+                    HONESTIDAD
+                    <br>   
+                    CONFIANZA
+                    <br>
+                    INTEGRIDAD
+                    <br>
+                    PASIÓN
+                    <br>
+                    RESPONSABILIDAD
+                    <br>
+                    TRANSFORMACIÓN
+                    <br>
+                </p>
                 </li>
             </ul>
           </div>
@@ -122,7 +136,7 @@
           padding-bottom: 20px;
       }
       .div2 {
-          height: 317px;
+          height: 400px;
           background-color: #00467a;
           margin-top: -120px;
           
@@ -169,40 +183,10 @@
           .img-sellos {
             display: grid;
           }
-          .slider {
-            width: 350px;
-            overflow: hidden;
-            margin-top: -295px;
-            background-color: white;
-            position: absolute;
-            height: 350px;
-            margin-left: 12px;
-        }
-        .slider ul {
-            display: flex;
-            animation: cambio 20s infinite
-            alternate linear;
-            width: 400%;
-            padding-left: 0;
-        }
-        .slider li {
-            width: 25%;
-            list-style: none;
-        }
-        .titulo-carrusel {
-            font-size: 1.25rem;
-            text-transform: uppercase;
-            font-weight: 400;
-            font-family: Montserrat, sans-serif !important;
-            color: #df612a;
-            padding-left: 20px;
-        }
-        .subtitulo-carrusel {
-            font-size: 1.125rem;
-            font-family: 'Open Sans',sans-serif;
-            padding-left: 20px;
-            padding-right: 5px;
-        }
+          .silder {
+            width: -moz-available;
+            margin-right: 12px;
+          }
       }
       @media (min-width: 700px) {
           .section .img1 {
@@ -252,7 +236,7 @@
               line-height: 2
           }
           .img-compañia {
-              height: 450px;
+              height: 261px;
           }
           .content {
               padding-left: 40px;
@@ -304,6 +288,10 @@
           .img-sellos {
             display: flex;
           }
+          .img-compañia {
+            height: 480px;
+          }
+          
       }
       @media (min-width: 1199px){
           .section .img1 {
@@ -315,7 +303,7 @@
               margin-right: auto;
           }
           .div2 {
-              margin-top: -404px;
+              margin-top: -372px;
           }
           .titulos, .titulo-de-tarjetas, .titulo-sello, .subtitulo-personal, .subtitulo-compañia{
               font-weight: 400;
@@ -463,4 +451,42 @@
     75%{margin-left: -200%;}
     100%{margin-left: -200%;}
   }
+  
+  .slider {
+    width: 355px;
+    overflow: hidden;
+    margin-top: -380px;
+    background-color: white;
+    position: absolute;
+    height: 350px;
+    margin-left: 12px;
+}
+.slider ul {
+    display: flex;
+    animation: cambio 15s infinite
+    alternate linear;
+    width: 400%;
+    padding-left: 0;
+}
+.slider li {
+    width: 25%;
+    list-style: none;
+}
+.titulo-carrusel {
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: Montserrat, sans-serif !important;
+    color: #df612a;
+    padding-left: 20px;
+}
+.subtitulo-carrusel {
+    font-size: 1.125rem;
+    font-family: 'Open Sans',sans-serif;
+    padding-left: 20px;
+    padding-right: 5px;
+}
+.contenedor-img {
+    background-color: white;
+}
   </style>

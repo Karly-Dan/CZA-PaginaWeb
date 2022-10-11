@@ -19,6 +19,10 @@
         </section>
         <br>
         <div>
+            <loading />
+        </div>
+        <div>
+            
             <Footer></Footer>
         </div>
 
@@ -33,6 +37,7 @@
     import Header1 from '../components/Header.vue'
     import TarjetasDelPersonal from '../components/TarjetasDelPersonal.vue';
     import TarjetasDeServiciosVue from '../components/TarjetasDeServicios.vue';
+    import Loading from '../components/loadin.vue';
 
 export default {
     components: {
@@ -42,6 +47,7 @@ export default {
     Header1,
     TarjetasDelPersonal,
     TarjetasDeServiciosVue,
+    Loading,
 }
 }
 </script>

@@ -36,22 +36,28 @@
           </div>
       </section>
       <section class="tarjetas-vue">
-          <h1 class="titulo-de-tarjetas">Asesoramos a las organizaciones en estrategias de creación de valor</h1>
+          <h1 class="titulo-de-tarjetas">Comparativos, Diagnóstico, Presupuesto y Disponibilidad.</h1>
           <div>
               <tarjetas-vue />
           </div>
       </section>
       <br>
       <section class="section2">
-          <h1 class="titulos">Planifique su exito ahora</h1>
-          <p class="subtitulo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt dolore facilis magni ipsam sapiente culpa nostrum fugiat veritatis, sunt adipisci rerum optio placeat quas. Perferendis harum quos neque cupiditate ipsam?</p>
+          <h1 class="titulos">Facturación Electrónica</h1>
+          <p class="subtitulo">PAC autorizado por el SAT, ofreciendo seguridad garantizada y facturas las 24 horas
+        Accesible desde cualquier dispositivo con internet  
+        Personalización de los comprobantes en PDF, con diseño color y logotipo. Capacidad para operar con múltiples sucursales y usuarios.   </p>
           <boton />
       </section>
       <section style="display: contents;">
           <div class="content" style=" background-color: white; padding-bottom: 40px; padding-top: 20px;">
-              <h2 class="subtitulo-personal" >Acerca de la compañía</h2>
-              <p style="line-height: 1.4; font-style: italic; font-weight: 400; font-family: 'Open Sans',sans-serif !important; color: #808080 !important;">Dignissim enim sit amet venenatis urna cursus. Vitae sapien pellentesque habitant morbi tristique senectus et.</p>
-              <p style="font-size: 1.125rem;">Aenean sed adipiscing diam donec adipiscing tristique risus. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Id semper risus in hendrerit gravida rutrum. Vel pharetra vel turpis nunc eget lorem. Egestas congue quisque egestas diam</p>
+              <h2 class="subtitulo-personal" >Soluciones Inteligentes</h2>
+              <p style="line-height: 1.4; font-style: italic; font-weight: 400; font-family: 'Open Sans',sans-serif !important; color: #808080 !important;">A TRAVÉS DE TECNOLOGÍAS DE LA INFORMACIÓN</p>
+              <li style="font-size: 1.125rem; font-family: 'Open Sans',sans-serif; margin-bottom: 8px;">ATENCIÓN PERSONALIZADA</li>
+              <li style="font-size: 1.125rem; font-family: 'Open Sans',sans-serif; margin-bottom: 8px;">COMPARATIVOS DE INGRESOS Y EGRESOS</li>
+              <li style="font-size: 1.125rem; font-family: 'Open Sans',sans-serif; margin-bottom: 8px;">DIAGNÓSTICO FINANCIERO</li>
+              <li style="font-size: 1.125rem; font-family: 'Open Sans',sans-serif; margin-bottom: 8px;">PRESUPUESTO</li>
+              <li style="font-size: 1.125rem; font-family: 'Open Sans',sans-serif; margin-bottom: 8px;">INFORMACIÓN DISPONIBLE 365 DÍAS DEL AÑO </li>
               <boton />
           </div>
           <div style="background-color:white; padding-bottom: 20px;">

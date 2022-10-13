@@ -77,9 +77,9 @@
       </section>
       <section class="acerca-de-la-compañia">
           <div class="div-copañia">
-              <h2 class="titulo-compañia">Acerca de la compañía</h2>
-              <p class="subtitulo-compañia">Negocios Consultoría</p>
-              <p class="parrafo-compañia">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint Ocecat cupidatat non proident.</p>
+              <h2 class="titulo-compañia">ANÁLISIS, MEJORA Y RESULTADOS</h2>
+              <p class="subtitulo-compañia">Ingeniería Administrativa</p>
+              <p class="parrafo-compañia">Ofrecemos acciones que se encaminan a optimizar sus procesos internos, manejo, acceso y seguridad de la información de su organización, ya sea en su red local o desde cualquier punto que tenga acceso a ella.</p>
               <boton />
           </div>
           <div class="contenedor-img">
@@ -88,13 +88,11 @@
       </section>
       <section class="sellos">
           <div>
-          <h1 class="titulo-sello">Socios de información</h1>
-          <p class="subtitulo">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+          <h1 class="titulo-sello">Centro de Profesionalización de Capital Humano.</h1>
+          <p class="subtitulo">Sello.</p>
           </div>
           <div class="img-sellos">
-          <img src="../assets/img/firma.png" alt="" class="sellos-img">
-          <img src="../assets/img/firma.png" alt="" class="sellos-img">
-          <img src="../assets/img/firma.png" alt="" class="sellos-img">
+          <img src="../assets/img/sello.jpeg" alt="" class="sellos-img">
           </div>
       </section>
       <Footer></Footer>
@@ -193,6 +191,7 @@
             width: -moz-available;
             margin-right: 12px;
           }
+          
       }
       @media (min-width: 700px) {
           .section .img1 {
@@ -410,6 +409,7 @@
       margin:auto;
       padding-bottom: 30px;
       padding-top: 30px;
+      height: 275px;
   }
   .titulo-sello {
       color: #111111;
@@ -494,5 +494,6 @@
 }
 .contenedor-img {
     background-color: white;
+    display: flex;
 }
   </style>

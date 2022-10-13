@@ -66,7 +66,7 @@
       </section>
       <section class="tarjetas-servicios">
           <h1 class="titulos">Que servicios ofrecemos</h1>
-          <p class="subtitulo">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint Ocecat cupidatat non proident, sunt in culpa</p>
+          <p class="subtitulo">Consultoría para negocios enfocados en el manejo y administración de sus finanzas. Especializados En El Área Legal, Contable, Fiscal, Electrónica Y Administrativa</p>
           <tarjetas-de-servicios />
       </section>
       <section class="personal">

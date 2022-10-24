@@ -66,13 +66,13 @@
       </section>
       <section class="tarjetas-servicios">
           <h1 class="titulos">Que servicios ofrecemos</h1>
-          <p class="subtitulo">Consultoría para negocios enfocados en el manejo y administración de sus finanzas. Especializados En El Área Legal, Contable, Fiscal, Electrónica Y Administrativa</p>
+          <p class="subtitulo">Consultoría para negocios enfocados en el manejo y administración de sus finanzas. Especializados En El Área Legal, Contable, Fiscal, Facturación Electrónica Y Administrativa</p>
           <tarjetas-de-servicios />
       </section>
       <section class="personal">
           <h1 class="titulo-personal">Integrantes del quipo</h1>
           <p class="subtitulo-personal">Somos socios expertos comprometidos</p>
-          <p class="subtitulo">Valoramos enormemente las relaciones sólidas y hemos visto los beneficios que aportan a nuestro negocio. Los comentarios de los clientes son vitales para ayudarnos a hacerlo bien.</p>
+          <p class="subtitulo">Valoramos enormemente las relaciones sólidas y hemos visto los beneficios que aportan a nuestro negocio. </p>
           <tarjetas-del-personal />
       </section>
       <section class="acerca-de-la-compañia">
@@ -89,7 +89,7 @@
       <section class="sellos">
           <div>
           <h1 class="titulo-sello">Centro de Profesionalización de Capital Humano.</h1>
-          <p class="subtitulo">Sello.</p>
+          <p class="subtitulo">Certificadores oficiales</p>
           </div>
           <div class="img-sellos">
           <img src="../assets/img/sello.jpeg" alt="" class="sellos-img">
@@ -335,165 +335,165 @@
             display: flex;
           }
       }
-  .titulo-de-tarjetas {
-      color: #111111;
-      height: 250px;
-      line-height: 1.1;
-      text-align: center;
-      font-family: Montserrat,sans-serif;
-      font-weight: 400;
-      margin-left: auto;
-      margin-right: auto;
-      text-transform: none;
-      background-color:  #e0e5eb;
-  }
-  .titulos {
-      color: #111111;
-      line-height: 1.1;
-      text-align: center;
-      font-family: Montserrat,sans-serif;
-      font-weight: 400;
-      margin-left: auto;
-      margin-right: auto;
-      text-transform: none;
-      background-color:  #e0e5eb;
-  }
-  .subtitulo {
-      text-align: center;
-      line-height: 1.6;
-      color: #111111;
-      margin: 30px auto 0;
-      margin-bottom: 20px;
-  }
-  .tarjetas-servicios {
-      margin-left: 10px;
-      margin-right: 10px;
-  }
-  .personal {
-      background-color: white;
-      text-align: center;
-      padding-bottom: 20px;
-  }
-  .titulo-personal {
-      text-transform: uppercase;
-      letter-spacing: 6px;
-      color: #555c66;
-      font-size: 1.25rem;
-      line-height: 1.2;
-      font-weight: 400;
-      font-family: 'PT Sans',sans-serif;
-      margin-top: 20px;
-      padding-top: 40px;
-  }
-  .subtitulo-personal {
-      font-family: Montserrat,sans-serif;
-      color: #111111;
-      font-weight: 400;
-      line-height: 1.1;
-  }
-  p {
-      font-size: 1.25rem;
-      font-family: 'Open Sans',sans-serif;
-      line-height: 1.6;
-  }
-  .sellos{
-      text-align: center;
-      background-color: white;
-      margin: 0;
-      padding: 20px;
-  }
-  .img-sellos {
-      width: 100%;
-  }
-  .sellos-img {
-      margin:auto;
-      padding-bottom: 30px;
-      padding-top: 30px;
-      height: 275px;
-  }
-  .titulo-sello {
-      color: #111111;
-      line-height: 1.1;
-      text-align: center;
-      font-family: Montserrat,sans-serif;
-      font-weight: 400;
-      margin-left: auto;
-      margin-right: auto;
-      text-transform: none;
-  }
-  .div-copañia {
-      background-color: white;
-      padding: 35px;
-  }
-  .titulo-compañia {
-      margin-top: 0;
-      text-transform: uppercase;
-      letter-spacing: 6px;
-      color: #555c66;
-      font-size: 1.25rem;
-      line-height: 1.2;
-      font-weight: 400;
-      font-family: 'PT Sans',sans-serif;
-  }
-  .subtitulo-compañia {
-      font-family: Montserrat,sans-serif;
-      color: #111111;
-      font-weight: 400;
-      line-height: 1.1;
-      margin: 0px;
-      font-size: 1.5rem;
-  }
-  
-  @keyframes cambio {
-    0% {margin-left: 0;}
-    20% {margin-left: 0;}
+        .titulo-de-tarjetas {
+            color: #111111;
+            height: 250px;
+            line-height: 1.1;
+            text-align: center;
+            font-family: Montserrat,sans-serif;
+            font-weight: 400;
+            margin-left: auto;
+            margin-right: auto;
+            text-transform: none;
+            background-color:  #e0e5eb;
+        }
+        .titulos {
+            color: #111111;
+            line-height: 1.1;
+            text-align: center;
+            font-family: Montserrat,sans-serif;
+            font-weight: 400;
+            margin-left: auto;
+            margin-right: auto;
+            text-transform: none;
+            background-color:  #e0e5eb;
+        }
+        .subtitulo {
+            text-align: center;
+            line-height: 1.6;
+            color: #111111;
+            margin: 30px auto 0;
+            margin-bottom: 20px;
+        }
+        .tarjetas-servicios {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .personal {
+            background-color: white;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+        .titulo-personal {
+            text-transform: uppercase;
+            letter-spacing: 6px;
+            color: #555c66;
+            font-size: 1.25rem;
+            line-height: 1.2;
+            font-weight: 400;
+            font-family: 'PT Sans',sans-serif;
+            margin-top: 20px;
+            padding-top: 40px;
+        }
+        .subtitulo-personal {
+            font-family: Montserrat,sans-serif;
+            color: #111111;
+            font-weight: 400;
+            line-height: 1.1;
+        }
+        p {
+            font-size: 1.25rem;
+            font-family: 'Open Sans',sans-serif;
+            line-height: 1.6;
+        }
+        .sellos{
+            text-align: center;
+            background-color: white;
+            margin: 0;
+            padding: 20px;
+        }
+        .img-sellos {
+            width: 100%;
+        }
+        .sellos-img {
+            margin:auto;
+            padding-bottom: 30px;
+            padding-top: 30px;
+            height: 275px;
+        }
+        .titulo-sello {
+            color: #111111;
+            line-height: 1.1;
+            text-align: center;
+            font-family: Montserrat,sans-serif;
+            font-weight: 400;
+            margin-left: auto;
+            margin-right: auto;
+            text-transform: none;
+        }
+        .div-copañia {
+            background-color: white;
+            padding: 35px;
+        }
+        .titulo-compañia {
+            margin-top: 0;
+            text-transform: uppercase;
+            letter-spacing: 6px;
+            color: #555c66;
+            font-size: 1.25rem;
+            line-height: 1.2;
+            font-weight: 400;
+            font-family: 'PT Sans',sans-serif;
+        }
+        .subtitulo-compañia {
+            font-family: Montserrat,sans-serif;
+            color: #111111;
+            font-weight: 400;
+            line-height: 1.1;
+            margin: 0px;
+            font-size: 1.5rem;
+        }
+        
+        @keyframes cambio {
+            0% {margin-left: 0;}
+            20% {margin-left: 0;}
 
-    25% {margin-left: -100%;}
-    45% {margin-left: -100%;}
+            25% {margin-left: -100%;}
+            45% {margin-left: -100%;}
 
-    50%{margin-left: -100%;}
-    70%{margin-left: -100%;}
-    
-    75%{margin-left: -200%;}
-    100%{margin-left: -200%;}
-  }
-  
-  .slider {
-    width: 355px;
-    overflow: hidden;
-    margin-top: -380px;
-    background-color: white;
-    position: absolute;
-    height: 350px;
-    margin-left: 12px;
-}
-.slider ul {
-    display: flex;
-    animation: cambio 15s infinite
-    alternate linear;
-    width: 400%;
-    padding-left: 0;
-}
-.slider li {
-    width: 25%;
-    list-style: none;
-}
-.titulo-carrusel {
-    font-size: 1.25rem;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-family: Montserrat, sans-serif !important;
-    color: #df612a;
-    padding-left: 20px;
-}
-.subtitulo-carrusel {
-    font-size: 1.125rem;
-    font-family: 'Open Sans',sans-serif;
-    padding-left: 20px;
-    padding-right: 5px;
-}
-.contenedor-img {
-    background-color: white;
-    display: flex;
-}
+            50%{margin-left: -100%;}
+            70%{margin-left: -100%;}
+            
+            75%{margin-left: -200%;}
+            100%{margin-left: -200%;}
+        }
+        
+        .slider {
+            width: 355px;
+            overflow: hidden;
+            margin-top: -380px;
+            background-color: white;
+            position: absolute;
+            height: 350px;
+            margin-left: 12px;
+        }
+        .slider ul {
+            display: flex;
+            animation: cambio 15s infinite
+            alternate linear;
+            width: 400%;
+            padding-left: 0;
+        }
+        .slider li {
+            width: 25%;
+            list-style: none;
+        }
+        .titulo-carrusel {
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            font-weight: 400;
+            font-family: Montserrat, sans-serif !important;
+            color: #df612a;
+            padding-left: 20px;
+        }
+        .subtitulo-carrusel {
+            font-size: 1.125rem;
+            font-family: 'Open Sans',sans-serif;
+            padding-left: 20px;
+            padding-right: 5px;
+        }
+        .contenedor-img {
+            background-color: white;
+            display: flex;
+        }
   </style>

@@ -10,7 +10,7 @@
                     <h2 class="titulo-carrusel">Misión</h2>
                     <p class="subtitulo-carrusel">Ofrecer soluciones tecnológicas inteligentes acordes a las necesidades de nuestros clientes, que le permitan eficientar sus procesos productivos, generando utilidades a menor costo.</p>
                 </li>
-                <li>
+                <li> 
                     <h2 class="titulo-carrusel">Visión</h2>
                     <p class="subtitulo-carrusel">Adaptarnos a las nuevas tecnologías para brindar seguridad a nuestros clientes, de la infromación que se genera, derivada de su actividad comercial.</p>
                 </li>

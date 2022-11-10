@@ -1,6 +1,6 @@
 <template>
     <main>
-      <header-base />
+      <header-base/>
       <section class="section">
           <img src="../assets/img/grupo.jpg" alt="" class="img1">
           <div class="div2"></div>

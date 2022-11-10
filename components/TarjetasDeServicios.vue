@@ -53,7 +53,7 @@ export default {
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/img/administrativa.jpg);
         background-repeat: no-repeat;
         width: 100%;
-        background-size: 387px;
+        background-size: 470px;
         margin-bottom: 20px;
     }
     .item4 {

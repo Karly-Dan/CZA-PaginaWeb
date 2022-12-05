@@ -29,7 +29,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
     .contenedor {
         display: flex;
         flex-wrap: wrap;
@@ -101,7 +101,7 @@ export default {
         font-size: 1.5rem;
         text-transform: uppercase;
         letter-spacing: 3px;
-        font-family: Montserrat,sans-serif;
+        font-family: sans-serif;
         color: #ffffff;
     }
 </style>

@@ -135,7 +135,7 @@
           font-size: 1.875rem;
           line-height: 1.1;
           text-transform: none;
-          font-family: Montserrat,sans-serif;
+          font-family: sans-serif;
           font-weight: 400;
           padding-bottom: 20px;
       }
@@ -227,7 +227,7 @@
               width: 202px;
           }
           .subtitulo-compañia {
-              font-family: Montserrat, sans-serif;
+              font-family: sans-serif;
               background-image: none;
               letter-spacing: normal;
               text-transform: none;
@@ -274,7 +274,7 @@
               padding-left: 65px;
           }
           .subtitulo-compañia {
-              font-family: Montserrat, sans-serif;
+              font-family: sans-serif;
               background-image: none;
               letter-spacing: normal;
               text-transform: none;
@@ -340,7 +340,7 @@
             height: 250px;
             line-height: 1.1;
             text-align: center;
-            font-family: Montserrat,sans-serif;
+            font-family: sans-serif;
             font-weight: 400;
             margin-left: auto;
             margin-right: auto;
@@ -351,7 +351,7 @@
             color: #111111;
             line-height: 1.1;
             text-align: center;
-            font-family: Montserrat,sans-serif;
+            font-family: sans-serif;
             font-weight: 400;
             margin-left: auto;
             margin-right: auto;
@@ -386,7 +386,7 @@
             padding-top: 40px;
         }
         .subtitulo-personal {
-            font-family: Montserrat,sans-serif;
+            font-family: sans-serif;
             color: #111111;
             font-weight: 400;
             line-height: 1.1;
@@ -415,7 +415,7 @@
             color: #111111;
             line-height: 1.1;
             text-align: center;
-            font-family: Montserrat,sans-serif;
+            font-family: sans-serif;
             font-weight: 400;
             margin-left: auto;
             margin-right: auto;
@@ -436,7 +436,7 @@
             font-family: 'PT Sans',sans-serif;
         }
         .subtitulo-compañia {
-            font-family: Montserrat,sans-serif;
+            font-family: sans-serif;
             color: #111111;
             font-weight: 400;
             line-height: 1.1;
@@ -482,7 +482,7 @@
             font-size: 1.25rem;
             text-transform: uppercase;
             font-weight: 400;
-            font-family: Montserrat, sans-serif !important;
+            font-family: sans-serif !important;
             color: #df612a;
             padding-left: 20px;
         }

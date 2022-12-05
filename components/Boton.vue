@@ -20,7 +20,7 @@
     font-weight: bold;
     cursor: pointer;
     border-color: transparent;
-    font-family: Montserrat, sans-serif;
+    font-family: sans-serif;
 }
 
 .button1:hover {

@@ -77,8 +77,8 @@ export default {
       height: 1550px;
     }
     .titulo-de-tarjeta, .titulo-de-tarjeta2, .titulo-de-tarjeta3, .titulo-de-tarjeta4{
-      width: 260px;
-      height: 320px;
+      width: 250px;
+      height: 345px;
       margin-bottom: 20px;
     }
     .titulo-de-tarjeta {
@@ -95,31 +95,38 @@ export default {
 }
 @media (min-width: 991px){
     .contenedor {
-      height: 700px;
+      height: 850px;
       margin-top: 100px;
     }
     .titulo-de-tarjeta {
-      width: 335px;
+      width: 300px;
       margin-top: -50px;
       margin-bottom: 134px;
+      margin-right: 50px;
     }
     .titulo-de-tarjeta2 {
-      width: 335px;
+      width: 300px;
       margin-bottom: 208px;
       margin-top: -115px;
     }
     .titulo-de-tarjeta3 {
-      width: 335px;
-      margin-top: -50px;
+      width: 300px;
+      margin-top: -70px;
+      margin-right: 50px;
+
+    }
+    .titulo-de-tarjeta4 {
+      width: 300px;
+      margin-top: -95px;
     }
 }
 @media (min-width: 1199px){
-    .contenedor{
-      height: 400px;
+    .contenedor {
+      height: 450px;
     }
     .titulo-de-tarjeta, .titulo-de-tarjeta2, .titulo-de-tarjeta3, .titulo-de-tarjeta4 {
-      width: 220px;
-      height: 355px;
+      width: 200px;
+      height: 395px;
       margin-right: 35px;
     }
     .titulo-de-tarjeta3 {

@@ -37,6 +37,7 @@ export default {
             display: block;
             text-align: center;
             height: 174px;
+            justify-content: space-evenly;
         }
     }
     @media (min-width: 700px) {

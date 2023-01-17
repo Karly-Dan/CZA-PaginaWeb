@@ -130,6 +130,7 @@
       .section2 {
           text-align: center;
           margin-bottom: 40px;
+          margin-top: 87px;
       }
       .section, h2 {
           font-size: 1.875rem;
@@ -187,9 +188,9 @@
           .img-sellos {
             display: grid;
           }
-          .silder {
-            width: -moz-available;
-            margin-right: 12px;
+          .slider {
+            margin-top: -371px;
+            margin-left: 10px;
           }
           
       }
@@ -250,6 +251,10 @@
           .img-sellos {
             display: flex;
           }
+          .slider {
+            margin-top: -371px;
+            margin-left: 228px;
+          }
       }
       @media (min-width: 991px){
           .section .img1 {
@@ -308,7 +313,7 @@
               margin-right: auto;
           }
           .div2 {
-              margin-top: -372px;
+              margin-top: -450px;
           }
           .titulos, .titulo-de-tarjetas, .titulo-sello, .subtitulo-personal, .subtitulo-compañia{
               font-weight: 400;
@@ -333,6 +338,10 @@
           }
           .img-sellos {
             display: flex;
+          }
+          .slider {
+            margin-top: -279px;
+            margin-left: 117px;
           }
       }
         .titulo-de-tarjetas {
@@ -461,11 +470,9 @@
         .slider {
             width: 355px;
             overflow: hidden;
-            margin-top: -380px;
             background-color: white;
             position: absolute;
-            height: 350px;
-            margin-left: 12px;
+            height: 329px;
         }
         .slider ul {
             display: flex;
@@ -497,3 +504,7 @@
             display: flex;
         }
   </style>
+
+
+
+

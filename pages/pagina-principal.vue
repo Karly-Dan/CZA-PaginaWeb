@@ -4,6 +4,7 @@
       <section class="section">
           <img src="../assets/img/grupo.jpg" alt="" class="img1">
           <div class="div2"></div>
+          <div style="display: flex; justify-content: center;">
           <div class="slider">
             <ul>
                 <li>
@@ -34,6 +35,7 @@
                 </li>
             </ul>
           </div>
+        </div>
       </section>
       <section class="tarjetas-vue">
           <h1 class="titulo-de-tarjetas">Comparativos, Diagnóstico, Presupuesto y Disponibilidad.</h1>
@@ -190,7 +192,6 @@
           }
           .slider {
             margin-top: -371px;
-            margin-left: 10px;
           }
           
       }
@@ -253,7 +254,6 @@
           }
           .slider {
             margin-top: -371px;
-            margin-left: 228px;
           }
       }
       @media (min-width: 991px){
@@ -324,6 +324,7 @@
           }
           .titulo-de-tarjetas {
               width: 822px;
+              margin-top: 150px;
           }
           .acerca-de-la-compañia {
               display: flex;
@@ -340,8 +341,7 @@
             display: flex;
           }
           .slider {
-            margin-top: -279px;
-            margin-left: 117px;
+            margin-top: -168px;
           }
       }
         .titulo-de-tarjetas {
@@ -468,7 +468,7 @@
         }
         
         .slider {
-            width: 355px;
+            width: 340px;
             overflow: hidden;
             background-color: white;
             position: absolute;

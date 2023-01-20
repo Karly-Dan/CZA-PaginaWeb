@@ -2,9 +2,8 @@
     <div>
         <div class="contenedor">
             <div style="margin-bottom: 35px;">
-                <p><img src="../assets/iconos/gmail.png" alt="">contacto@condezarate.mx</p>
+                <p  style="margin-top: 0; padding-top: 20px;"><img src="../assets/iconos/gmail.png" alt="">contacto@condezarate.mx</p>
                 <p><img src="../assets/iconos/llamada-telefonica.png" alt="">55 1254 3594</p>
-
             </div>
             <div> 
                 <p>Síguenos en Redes</p>
@@ -42,7 +41,7 @@ export default {
         .contenedor {
             display: block;
             text-align: center;
-            height: 174px;
+            height: 225px;
             justify-content: space-evenly;
         }
     }

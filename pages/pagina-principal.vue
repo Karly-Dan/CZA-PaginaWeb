@@ -72,7 +72,7 @@
           <tarjetas-de-servicios />
       </section>
       <section class="personal">
-          <h1 class="titulo-personal">Integrantes del quipo</h1>
+          <h1 class="titulo-personal">Integrantes del equipo</h1>
           <p class="subtitulo-personal">Somos socios expertos comprometidos</p>
           <p class="subtitulo">Valoramos enormemente las relaciones sólidas y hemos visto los beneficios que aportan a nuestro negocio. </p>
           <tarjetas-del-personal />

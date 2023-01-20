@@ -8,9 +8,9 @@
             </div>
             <div> 
                 <p>Síguenos en Redes</p>
-                <a href="https://www.instagram.com/condezarateyasociados/?hl=es"><img src="../assets/iconos/instagram.png" alt=""></a>
-                <a href="https://www.facebook.com/people/Conde-Zarate-Asociados-SC/100057309015417/"><img src="../assets/iconos/facebook.png" alt=""></a>
-                <a href="https://www.youtube.com/@condezarateasociados3097"><img src="../assets/iconos/youtube.png" alt=""></a>
+                <a href="https://www.instagram.com/condezarateyasociados/?hl=es" target="_blank" rel="noopener noreferrer"><img src="../assets/iconos/instagram.png" alt=""></a>
+                <a href="https://www.facebook.com/people/Conde-Zarate-Asociados-SC/100057309015417/" target="_blank" rel="noopener noreferrer"><img src="../assets/iconos/facebook.png" alt=""></a>
+                <a href="https://www.youtube.com/@condezarateasociados3097" target="_blank" rel="noopener noreferrer"><img src="../assets/iconos/youtube.png" alt=""></a>
             </div>
         </div>
     </div>

@@ -23,8 +23,8 @@ confidencialidad, etc.</p>
 de EFOS o EDOS, etc.</p>
         </div>
     </section>
-
 </template>
+
 
 <script>
 export default {
@@ -43,7 +43,7 @@ export default {
       box-shadow: 5px 5px 0px 0 rgba(32, 31, 31, 0.51);
       width: 100%;
       text-align: center;
-      font-family: Montserrat, sans-serif !important;
+      font-family: sans-serif !important;
       color: #555c66 !important;
       font-style: italic;
       background-color: white;
@@ -53,9 +53,10 @@ export default {
     img {
     height: 42px;
     width: 42px;
-    border-radius: 39%;
+    border-radius: 50%;
     background-color: rgb(224, 229, 235) !important;
     padding: 18px;
+    border-style: double;
     }
     p {
       font-style: italic;
@@ -87,7 +88,8 @@ export default {
 }
 @media (min-width: 700px) {
     .contenedor {
-      height: 1600px;
+      height: 1564px;
+
     }
     .titulo-de-tarjeta, .titulo-de-tarjeta2, .titulo-de-tarjeta3, .titulo-de-tarjeta4 {
       width: 478px;
@@ -126,7 +128,7 @@ export default {
     }
     .titulo-de-tarjeta, .titulo-de-tarjeta2, .titulo-de-tarjeta3, .titulo-de-tarjeta4 {
       width: 200px;
-      height: 395px;
+      height: 404px;
       margin-right: 35px;
     }
     .titulo-de-tarjeta3 {

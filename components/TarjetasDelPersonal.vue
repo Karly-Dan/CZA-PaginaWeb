@@ -55,7 +55,7 @@ img {
     border-radius: 50% ;
     border-color: #00467a;
     border-width: 9px;
-    border-style: solid;
+    border-style: double;
     background-size: cover;
 }
 h1 {

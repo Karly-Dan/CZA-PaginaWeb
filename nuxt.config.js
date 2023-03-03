@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'CZA-PaginaWeb',
+    title: 'Conde Zárate & Asociados',
     htmlAttrs: {
       lang: 'en'
     },

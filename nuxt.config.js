@@ -1,4 +1,7 @@
 export default {
+  googleAnalytics: {
+    id:'G-07KPMBXRHX'
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Conde Zárate & Asociados',
@@ -15,7 +18,7 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-
+  
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
   ],
@@ -29,6 +32,7 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    '@nuxtjs/google-analytics'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -39,4 +43,5 @@ export default {
   build: {
   }
 }
+
 
